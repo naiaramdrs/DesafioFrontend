@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.content {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.content .box {
+    padding: 18px;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 15px;
+    position: relative;
+}
+
+.content .box a .icone {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: hsl(178, 100%, 50%, 0);
+    padding: 116px;
+    border-radius: 10px;  
+}
+
+.content .box a:hover .icone {
+    background-color: hsl(178, 100%, 50%, 0.5);
+}
+
+.content .box a:hover .icone svg {
+    visibility: visible;
+}
+
+.content .box a .icone svg {
+    visibility: hidden;
+}
+
+.content .box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.content .box h3 {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content .box h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.content .box h3 a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.content .box p {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 30px;
+}
+
+.content .box .borda {
+    border-bottom: 0.5px solid hsl(215, 51%, 70%);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content .box .icons {
+    display: inline;
+}
+
+#hora {
+    margin-left: 80px;
+}
+
+.content .box .icons .eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.content .box .icons .horas {
+    color: hsl(215, 51%, 70%);
+}
+
+.content .box .criador{
+    display: inline;
+    position: relative;
+}
+
+.content .box .criador img {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+
+}
+
+.content .box .criador p {
+    color: hsl(215, 51%, 70%);
+    display: inline;
+    margin-left: 50px;
+}
+
+.content .box .criador p a {
+    text-decoration: none;
+    color: white;
+}
+
+.content .box .criador p a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
